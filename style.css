@@ -27,8 +27,18 @@ em{
 	font-weight: bold;
 }
 a{
+	position: relative;
 	color: #00c;
 	text-decoration: underline;
+	transition: color 0.1s, bottom 0.2s;
+	bottom: 0px;
+}
+a:hover{
+	color: #66f;
+	bottom: 2px;
+}
+a:active{
+	color: #fc9;
 }
 header{
 	color: #fff;
