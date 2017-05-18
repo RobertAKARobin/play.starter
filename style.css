@@ -47,10 +47,13 @@ a:hover{
 a:active{
 	color: #fc9;
 }
+p{
+	margin: 10px 0;
+}
 header{
 	color: #fff;
-	background-color: #446;
-	border-bottom: 10px solid #335;
+	background-color: rgba(0, 0, 0, 0.5);
+	border-bottom: 10px solid rgba(0, 0, 0, 0.2);
 }
 header h1{
 	font-size: 36px;
@@ -81,4 +84,9 @@ footer h2{
 	transform: rotate(270deg);
 	transform-origin: 0% 100%;
 	background-color: rgba(0, 0, 0, 0.1);
+}
+input{
+	background-color: rgba(255, 255, 255, 0.9);
+	display: block;
+	width: 100%;
 }
